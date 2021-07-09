@@ -18,7 +18,7 @@ Import HashRouter.js JavaScript library wherever you want into the document befo
     })
     .add("*", function(details){  //Set rest of pages
       alert("404 page not found");
-      HashRouter.go("" || "/"); //go to home
+      HashRouter.go("" || "/"); //go home
     })
     .add("/about", function(details){
       alert("ABOUT");
@@ -199,7 +199,7 @@ o
     })
     .add("*", function(details){  //Set rest of pages
       alert("404 page not found");
-      HashRouter.go("" || "/"); //go to home
+      HashRouter.go("" || "/"); //go home
     })
     .add("/about", function(details){  //Set rest of pages
       alert("ABOUT");
